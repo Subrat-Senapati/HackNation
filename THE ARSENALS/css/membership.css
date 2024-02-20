@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+.plan {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #3498db;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 4px;
+	margin-bottom: 2rem;
+}
+
+.price {
+	font-size: 3rem;
+	margin-right: 1rem;
+}
+
+.duration {
+	font-size: 1.5rem;
+}
+
+.benefits {
+	margin-bottom: 2rem;
+    display: flex;
+	font-size: x-large;
+    border: 5px;
+	border-radius: 3px;
+}
+
+.benefit {
+	margin-bottom: 1rem;
+	display: block;
+	font-size: large;
+    border:2px;
+	width: auto;
+	border-radius: 10px;
+	border: 1.5px solid black;
+	padding-top: 3vh;
+	padding-left: 3vh;
+	
+}
+
+.benefit h4 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+#tc_button button{
+	text-decoration: none;
+    background-color:white;
+    color:purple;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-style:normal;
+    font-family: sans-serif;
+    padding:0.4rem 1.4rem;
+    border:none;
+    cursor:pointer;
+}
+#tc_button button:hover{
+    text-decoration: underline;
+}
+#tc_button button{
+    height:none;
+}
+
+.buy-button {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
