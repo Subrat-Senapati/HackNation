@@ -88,9 +88,6 @@ h2 {
     border:none;
     cursor:pointer;
 }
-#tc_button button:hover{
-    text-decoration: underline;
-}
 #tc_button button{
     height:none;
 }
