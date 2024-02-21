@@ -183,9 +183,9 @@ html{
 
 .slider-frame{
     overflow: hidden;
-    height: 90vh;
+    height: 100vh;
     width: 98vw;
-    margin-left: 1vw;
+    margin-left: .8vw;
     
 }
 .slide-images img{
@@ -223,9 +223,9 @@ html{
 }
 
 .slide-images{
-    width: 392vw;
-    height: 90vh;
-    margin: 0 0 0 -296vw;
+    width: 294vw;
+    height: 100vh;
+    margin: 0 0 0 -196vw;
     position: relative;
     -webkit-animation-name: slide_animation;
     animation-name: slide_animation;
@@ -241,8 +241,8 @@ html{
 }
 
 .img-container{
-    height: 500px;
-    width: 90vw;
+    height: 100vh;
+    width: 98vw;
     position: relative;
     float: left;
 }
@@ -637,6 +637,13 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+#copyright{
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 /*responsive*/
