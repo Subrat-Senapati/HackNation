@@ -1,7 +1,17 @@
+.img-container{
+  position: absolute;
+  width: 7rem;
+  height: auto;
+}
+.img-container img{
+  width: 7rem;
+  height: auto;
+}
 .glideon-container {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 20px;
     padding: 20px;
     box-sizing: border-box;
     background-color: azure;
@@ -27,34 +37,6 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
-  
-  .glideon-search-box {
-    width: 100%;
-    max-width: 300px;
-    margin-right: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color:RGB(140, 160, 200);
-    text-align: center;
-  }
-  .glideon-search-box p{
-    display: block;
-    margin-top: 10px;
-    font-size: 10px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .glideon-search-box a {
-    display: block;
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-  
   .glideon-search-form {
     width: 100%;
   }
@@ -67,6 +49,7 @@
   .glideon-search-form input {
     width: 47%;
     padding: 10px;
+    margin-top: 3vh;
     box-sizing: border-box;
     border: 1px solid rgba(240, 255, 255, 0.775);
   }
@@ -74,6 +57,7 @@
   .glideon-search-form button {
     width: 47%;
     padding: 10px;
+    margin-top: 3vh;
     box-sizing: border-box;
     background-color: #333;
     color: #fff;
