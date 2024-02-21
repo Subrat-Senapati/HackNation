@@ -1,0 +1,98 @@
+.glideon-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: azure;
+    border-radius: 8px;
+    border-color: #fff;
+    box-shadow: none;
+  }
+  
+  .glideon-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:RGB(140, 160, 200);
+    border-radius: 7px;
+  }
+  
+  .glideon-header p {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .glideon-search-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .glideon-search-box {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:RGB(140, 160, 200);
+    text-align: center;
+  }
+  .glideon-search-box p{
+    display: block;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .glideon-search-box a {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .glideon-search-form {
+    width: 100%;
+  }
+  
+  .glideon-search-form form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .glideon-search-form input {
+    width: 47%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(240, 255, 255, 0.775);
+  }
+  
+  .glideon-search-form button {
+    width: 47%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .glideon-info-container {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: large;
+      border:2px;
+    width: auto;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding-top: 3vh;
+    padding-left: 3vh;
+  }
+  
+  .glideon-info-container p {
+    line-height: 1.5;
+  }
